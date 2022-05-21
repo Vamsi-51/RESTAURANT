@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Irish+Grover&family=Poppins:wght@300;400;500;600;700&family=Quintessential&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Irish+Grover&family=Oswald&family=Poppins:wght@300;400;500;600;700&family=Quintessential&display=swap"
+            rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/b8a883afc1.js" crossorigin="anonymous"></script>
+      
+</head>
+<body>
+   
+    <div class="main" id="hm" >
+        
+        <nav>
+            <ul>
+                <li >
+                    <h1>RESTAURANTLY</h1>
+                </li>
+                <li class="active"> <a href="#hm">home</a></li>
+                <li><a href="#ab">about</a></li>
+                <li><a href="#mn">menu</a></li>
+                <li><a href="#sp">specials</a></li>
+                <li><a href="#ev">events</a></li>
+                <li><a href="#gy">gallery</a></li>
+                <li><a href="#ct">Contact</a><li>
+                <li class="spc"><a href="#bk" >book a table</a></li>
+            </ul>
+        </nav>
+        <h1 class="header"> Welcome to <span> Restaurantly</span></h1>
+        <p>Delivering great food for more than 18 years!</p>
+        <p class="but1">our menu</p>
+        <p class="but2">book a table</p>
+        <script>
+            let ul = document.querySelector("ul");
+            let li = document.querySelectorAll("li")
+            li.forEach(el => {
+                el.addEventListener("click", function (){
+                    ul.querySelector(".active").classList.remove('active');
+                    el.classList.add("active");
+                   
+                    
+                
+                })
+            });
+            
+        </script>
+    </div>
+    
+    <div class="second" id="ab">
+        <img src="./img/about.jpg" alt="img" class="about">
+        <h2>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h2>
+        <p class="about-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+        aliqua.</p>
+        <ul>
+            <li class="symbols"> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+            <li class="symbols">Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+            <li class="symbols">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta
+            storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+        </ul>
+    </div>
+    <div class="third">
+        <p class="why-us">why us _______</p>
+        <h1 class="Why-Choose">Why Choose Our Restaurant</h1>
+        <div class="four">
+        <div class="colr">01</div> 
+        <h1 class="box">Lorem Ipsum</h1>
+        <p class="box1"> Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p> </div>
+        <div class="five">
+            <div class="colr">02</div>
+            <h1 class="box">Repellat Nihil</h1>
+            <p class="box1">Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+        </div>
+        <div class="six">
+            <div class="colr">03</div>
+            <h1 class="box">Ad ad velit qui</h1>
+            <p class="box1">Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+        </div>    
+    </div>
+    <div class="seven" id="mn">
+        <!--  -->
+        <h3 class="eight">menu</h3>
+        <p class="nine">Check Our Tasty Menu</p>
+        <img src="./img/specials-1.png" alt="" class="menu1">
+        <p class="m1">Lobster Bisque ----------------------------- <span class="cost">$5.95</span><p class="mm1">  Lorem,deren,trataro,filede, nerada </p></p> 
+        <!--  -->
+       <div class="pos">
+        <img src="./img/specials-2.png" alt="" class="menu2">
+        <p class="m2">Lobster Bisque ----------------------------- <span class="cost">$5.95</span>
+        <p class="mm2"> Lorem,deren,trataro,filede, nerada </p>
+        </p>
+        </div>
+        <!--  -->
+        <div class="pos1">
+            <img src="./img/specials-3.png" alt="" class="menu3">
+            <p class="m3">Lobster Bisque ----------------------------- <span class="cost">$5.95</span>
+            <p class="mm3"> Lorem,deren,trataro,filede, nerada </p>
+            </p>
+        </div>
+        <!--  -->
+        <div class="pos2">
+            <img src="./img/specials-4.png" alt="" class="menu4">
+            <p class="m4">Lobster Bisque ----------------------------- <span class="cost">$5.95</span>
+            <p class="mm4"> Lorem,deren,trataro,filede, nerada </p>
+            </p>
+        </div>
+
+        <!--  -->
+        <div class="pos3">
+            <img src="./img/specials-5.png" alt="" class="menu5">
+            <p class="m5">Lobster Bisque ----------------------------- <span class="cost">$5.95</span>
+            <p class="mm5"> Lorem,deren,trataro,filede, nerada </p>
+            </p>
+        </div>
+        <!--  -->
+        <div class="pos4">
+            <img src="./img/spinach-salad.jpg" alt="" class="menu6">
+            <p class="m6">Lobster Bisque  ------------------- <span class="cost">$5.95</span>
+            <p class="mm6"> Lorem,deren,trataro,filede, nerada </p>
+            </p>
+        </div>
+        
+       
+       
+    </div>
+   
+    <div class="form" id="bk">
+        <h3 class="res">RESERVATION -------------------</h3>
+        <p class="tab">book a table</p>
+        <form action="" method="" class="form1">
+            <input type="text" name="name" id="name" placeholder="your name" > 
+            <input type="email" name="email" id="em" placeholder="your email">
+            <input type="number" name="phno" id="ph" placeholder="your number">
+            <input type="text" name="date" id="dt" placeholder="date">
+            <input type="text" name="time" id="t" placeholder="time">
+            <input type="number" name="people" id="pp" placeholder="# no of people">
+            <textarea name="text" cols="50" rows="5" placeholder="message"></textarea>
+        </form>
+        <button class="button">Book a Table</button>
+     
+    </div>
+    <div class="gallery" >
+        <h3 class="res1" id="gy">GALLERY -------------------</h3>
+        <p class="tab1">Some photos from Our Restaurant</p>
+        <img src="./img/gallery/gallery-1.jpg" alt="" class="im">
+        <img src="./img/gallery/gallery-2.jpg" alt="" class="im">
+        <img src="./img/gallery/gallery-3.jpg" alt="" class="im">
+        <img src="./img/gallery/gallery-4.jpg" alt="" class="im">
+        <img src="./img/gallery/gallery-5.jpg" alt="" class="im">
+        <img src="./img/gallery/gallery-6.jpg" alt="" class="im">
+        <img src="./img/gallery/gallery-7.jpg" alt="" class="im">
+        <img src="./img/gallery/gallery-8.jpg" alt="" class="im">
+        
+    </div>
+    <div class="map" id="ct">
+        <h3 class="res1">CONTACT -------------------</h3>
+        <p class="tab1">Contact Us</p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7638.701805252088!2d81.10098307261093!3d16.808939324179345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a366bd8ff1963c3%3A0x7986a8ff3e5d1966!2sPedavegi%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1650180049464!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+    <div class="fotter">
+        <div class="ff">
+        <div class="f1">
+            <h3>RESTAURANTLY</h3>
+            <p>A108 Adam Street
+            NY 535022, USA</p>
+            <p>Phone: +1 5589 55488 55 <br>
+            Email: info@example.com</p>
+           
+        </div>
+        <div class="f2">
+            <ul>
+                <h3>Useful Links</h3>
+                <li>home</li>
+                <li>about us</li>
+                <li>services</li>
+                <li>terms of services</li>
+                <li>privacy policy</li>
+            </ul>
+        </div>
+        <div class="f3">
+            <ul>
+                <h3>Useful Links</h3>
+                <li>web design</li>
+                <li>web development</li>
+                <li>product management</li>
+                <li>marketing</li>
+                <li>grafic design</li>
+            </ul>
+        </div>
+        </div>
+        <p class="last"> &copy; Copyright Restaurantly. All Rights Reserved</p>
+        <p class="last1 ">Designed by <span class="last2"> Vamsi Konakalla </span></p>
+    </div>
+</body>
+</html>
